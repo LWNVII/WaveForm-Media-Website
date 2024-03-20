@@ -1,0 +1,102 @@
+/* Style rule for text color */
+h1 {
+    font-family: 'Imbue';
+    font-size: 250%;
+    font-weight: bold;
+    color: #FFEBC4;
+    padding: 15% 0 200px 0;
+}
+
+body {
+    font-family: 'Ysabeau';
+    font-size: large;
+}
+
+footer {
+    margin-top: auto;
+}
+
+h2 {
+    font-weight: 900;
+    padding: 5% 0px 5% 0px;
+    margin: 5px 0 5px 0;
+    background-color: #FFEBC4;
+    text-align: center;
+}
+
+p {
+    font-size: smaller;
+    padding: 5% 0px 5% 0px;
+    margin: 5px;
+    background: hsl(106, 17%, 40%, 0.5);
+    color: #FFEBC4;
+    border-radius: 5px;
+    text-align: center;
+}
+
+li {
+    font-weight: 600;
+    font-size: medium;
+}
+
+.sticky {
+    position: fixed;
+    justify-content: left;
+    top: 0;
+    width: 20%;
+}
+
+.WaveFormLogo {
+    width:50px;
+    border-radius: 70px;
+}
+
+.navbar-toggler-icon {
+   background-color: #3e644e;
+}
+
+.img-gallery {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .img-gallery > li {
+    height: 300px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .img-gallery li img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border-radius: 5px;
+  }
+
+.black-text {
+    color: #000000;
+}
+
+.bg-midgreen {
+    background-color: #3e644e;
+}
+
+.bg-lavender {
+    background-color: #9c6bf7;
+}
+
+.h-yellow {
+    background-color: #FCB64C;
+}
+
+.f-red {
+    background-color: #9b3e32;
+}
+
+.dark-green {
+    background-color: #1b2c22;
+}
